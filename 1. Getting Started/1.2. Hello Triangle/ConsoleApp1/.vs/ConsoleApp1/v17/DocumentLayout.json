@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK\\1. Getting Started\\1.2. Hello Triangle\\ConsoleApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3B45D6E0-9942-4C5E-938B-22494C496E51}|ConsoleApp1.csproj|d:\\github\\meus reposit\u00F3rios\\learnopentk\\1. getting started\\1.2. hello triangle\\consoleapp1\\src\\shader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B45D6E0-9942-4C5E-938B-22494C496E51}|ConsoleApp1.csproj|solutionrelative:src\\shader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3B45D6E0-9942-4C5E-938B-22494C496E51}|ConsoleApp1.csproj|d:\\github\\meus reposit\u00F3rios\\learnopentk\\1. getting started\\1.2. hello triangle\\consoleapp1\\src\\window.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B45D6E0-9942-4C5E-938B-22494C496E51}|ConsoleApp1.csproj|solutionrelative:src\\window.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B45D6E0-9942-4C5E-938B-22494C496E51}|ConsoleApp1.csproj|d:\\github\\meus reposit\u00F3rios\\learnopentk\\1. getting started\\1.2. hello triangle\\consoleapp1\\src\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B45D6E0-9942-4C5E-938B-22494C496E51}|ConsoleApp1.csproj|solutionrelative:src\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3B45D6E0-9942-4C5E-938B-22494C496E51}|ConsoleApp1.csproj|d:\\github\\meus reposit\u00F3rios\\learnopentk\\1. getting started\\1.2. hello triangle\\consoleapp1\\src\\shaders\\shaderfragment.glsl||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -21,6 +13,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{3B45D6E0-9942-4C5E-938B-22494C496E51}|ConsoleApp1.csproj|d:\\github\\meus reposit\u00F3rios\\learnopentk\\1. getting started\\1.2. hello triangle\\consoleapp1\\src\\shaders\\shadervertex.glsl||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{3B45D6E0-9942-4C5E-938B-22494C496E51}|ConsoleApp1.csproj|solutionrelative:src\\shaders\\shadervertex.glsl||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B45D6E0-9942-4C5E-938B-22494C496E51}|ConsoleApp1.csproj|d:\\github\\meus reposit\u00F3rios\\learnopentk\\1. getting started\\1.2. hello triangle\\consoleapp1\\src\\shader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B45D6E0-9942-4C5E-938B-22494C496E51}|ConsoleApp1.csproj|solutionrelative:src\\shader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B45D6E0-9942-4C5E-938B-22494C496E51}|ConsoleApp1.csproj|d:\\github\\meus reposit\u00F3rios\\learnopentk\\1. getting started\\1.2. hello triangle\\consoleapp1\\src\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B45D6E0-9942-4C5E-938B-22494C496E51}|ConsoleApp1.csproj|solutionrelative:src\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,63 +30,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Shader.cs",
               "DocumentMoniker": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK\\1. Getting Started\\1.2. Hello Triangle\\ConsoleApp1\\src\\Shader.cs",
               "RelativeDocumentMoniker": "src\\Shader.cs",
               "ToolTip": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK\\1. Getting Started\\1.2. Hello Triangle\\ConsoleApp1\\src\\Shader.cs",
               "RelativeToolTip": "src\\Shader.cs",
-              "ViewState": "AQIAAEUAAAAAAAAAAAAAAFkAAAANAAAA",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAAAFQAAACmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-07T12:57:48.028Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "shaderVertex.glsl",
               "DocumentMoniker": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK\\1. Getting Started\\1.2. Hello Triangle\\ConsoleApp1\\src\\shaders\\shaderVertex.glsl",
               "RelativeDocumentMoniker": "src\\shaders\\shaderVertex.glsl",
               "ToolTip": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK\\1. Getting Started\\1.2. Hello Triangle\\ConsoleApp1\\src\\shaders\\shaderVertex.glsl",
               "RelativeToolTip": "src\\shaders\\shaderVertex.glsl",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2024-11-07T12:43:23.33Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "shaderFragment.glsl",
               "DocumentMoniker": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK\\1. Getting Started\\1.2. Hello Triangle\\ConsoleApp1\\src\\shaders\\shaderFragment.glsl",
               "RelativeDocumentMoniker": "src\\shaders\\shaderFragment.glsl",
               "ToolTip": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK\\1. Getting Started\\1.2. Hello Triangle\\ConsoleApp1\\src\\shaders\\shaderFragment.glsl",
               "RelativeToolTip": "src\\shaders\\shaderFragment.glsl",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAtAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2024-11-07T12:43:14.263Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Window.cs",
               "DocumentMoniker": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK\\1. Getting Started\\1.2. Hello Triangle\\ConsoleApp1\\src\\Window.cs",
               "RelativeDocumentMoniker": "src\\Window.cs",
               "ToolTip": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK\\1. Getting Started\\1.2. Hello Triangle\\ConsoleApp1\\src\\Window.cs",
               "RelativeToolTip": "src\\Window.cs",
-              "ViewState": "AQIAAFsAAAAAAAAAAAAAAGoAAAAKAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAHIAAAByAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-07T12:15:10.024Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK\\1. Getting Started\\1.2. Hello Triangle\\ConsoleApp1\\src\\Program.cs",
               "RelativeDocumentMoniker": "src\\Program.cs",
@@ -94,8 +94,7 @@
               "RelativeToolTip": "src\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T12:15:04.233Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-07T12:15:04.233Z"
             }
           ]
         }
