@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK_2\\1. Getting Started\\1.1. Creating a Window\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{880A2EDD-FE96-4A1B-AF8E-91995E3FD04A}|ConsoleApp1.csproj|d:\\github\\meus reposit\u00F3rios\\learnopentk_2\\1. getting started\\1.1. creating a window\\src\\window.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{880A2EDD-FE96-4A1B-AF8E-91995E3FD04A}|ConsoleApp1.csproj|solutionrelative:src\\window.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{880A2EDD-FE96-4A1B-AF8E-91995E3FD04A}|ConsoleApp1.csproj|d:\\github\\meus reposit\u00F3rios\\learnopentk_2\\1. getting started\\1.1. creating a window\\src\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{880A2EDD-FE96-4A1B-AF8E-91995E3FD04A}|ConsoleApp1.csproj|solutionrelative:src\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Window.cs",
+              "DocumentMoniker": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK_2\\1. Getting Started\\1.1. Creating a Window\\src\\Window.cs",
+              "RelativeDocumentMoniker": "src\\Window.cs",
+              "ToolTip": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK_2\\1. Getting Started\\1.1. Creating a Window\\src\\Window.cs",
+              "RelativeToolTip": "src\\Window.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T09:04:43.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK_2\\1. Getting Started\\1.1. Creating a Window\\src\\Program.cs",
+              "RelativeDocumentMoniker": "src\\Program.cs",
+              "ToolTip": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK_2\\1. Getting Started\\1.1. Creating a Window\\src\\Program.cs",
+              "RelativeToolTip": "src\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T09:04:05.313Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

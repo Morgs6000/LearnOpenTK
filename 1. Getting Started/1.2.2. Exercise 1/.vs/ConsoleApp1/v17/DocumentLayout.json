@@ -1,0 +1,101 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK_2\\1. Getting Started\\1.2.2. Exercise 1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{880A2EDD-FE96-4A1B-AF8E-91995E3FD04A}|ConsoleApp1.csproj|d:\\github\\meus reposit\u00F3rios\\learnopentk_2\\1. getting started\\1.2.2. exercise 1\\src\\window.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{880A2EDD-FE96-4A1B-AF8E-91995E3FD04A}|ConsoleApp1.csproj|solutionrelative:src\\window.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{880A2EDD-FE96-4A1B-AF8E-91995E3FD04A}|ConsoleApp1.csproj|d:\\github\\meus reposit\u00F3rios\\learnopentk_2\\1. getting started\\1.2.2. exercise 1\\src\\shaders\\vertex.glsl||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{880A2EDD-FE96-4A1B-AF8E-91995E3FD04A}|ConsoleApp1.csproj|solutionrelative:src\\shaders\\vertex.glsl||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{880A2EDD-FE96-4A1B-AF8E-91995E3FD04A}|ConsoleApp1.csproj|d:\\github\\meus reposit\u00F3rios\\learnopentk_2\\1. getting started\\1.2.2. exercise 1\\src\\shader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{880A2EDD-FE96-4A1B-AF8E-91995E3FD04A}|ConsoleApp1.csproj|solutionrelative:src\\shader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{880A2EDD-FE96-4A1B-AF8E-91995E3FD04A}|ConsoleApp1.csproj|d:\\github\\meus reposit\u00F3rios\\learnopentk_2\\1. getting started\\1.2.2. exercise 1\\src\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{880A2EDD-FE96-4A1B-AF8E-91995E3FD04A}|ConsoleApp1.csproj|solutionrelative:src\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{880A2EDD-FE96-4A1B-AF8E-91995E3FD04A}|ConsoleApp1.csproj|d:\\github\\meus reposit\u00F3rios\\learnopentk_2\\1. getting started\\1.2.2. exercise 1\\src\\shaders\\fragment.glsl||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{880A2EDD-FE96-4A1B-AF8E-91995E3FD04A}|ConsoleApp1.csproj|solutionrelative:src\\shaders\\fragment.glsl||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Shader.cs",
+              "DocumentMoniker": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK_2\\1. Getting Started\\1.2.2. Exercise 1\\src\\Shader.cs",
+              "RelativeDocumentMoniker": "src\\Shader.cs",
+              "ToolTip": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK_2\\1. Getting Started\\1.2.2. Exercise 1\\src\\Shader.cs",
+              "RelativeToolTip": "src\\Shader.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAD4AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T09:16:07.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Fragment.glsl",
+              "DocumentMoniker": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK_2\\1. Getting Started\\1.2.2. Exercise 1\\src\\shaders\\Fragment.glsl",
+              "RelativeDocumentMoniker": "src\\shaders\\Fragment.glsl",
+              "ToolTip": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK_2\\1. Getting Started\\1.2.2. Exercise 1\\src\\shaders\\Fragment.glsl",
+              "RelativeToolTip": "src\\shaders\\Fragment.glsl",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-02-18T09:15:33.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Vertex.glsl",
+              "DocumentMoniker": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK_2\\1. Getting Started\\1.2.2. Exercise 1\\src\\shaders\\Vertex.glsl",
+              "RelativeDocumentMoniker": "src\\shaders\\Vertex.glsl",
+              "ToolTip": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK_2\\1. Getting Started\\1.2.2. Exercise 1\\src\\shaders\\Vertex.glsl",
+              "RelativeToolTip": "src\\shaders\\Vertex.glsl",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-02-18T09:15:25.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Window.cs",
+              "DocumentMoniker": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK_2\\1. Getting Started\\1.2.2. Exercise 1\\src\\Window.cs",
+              "RelativeDocumentMoniker": "src\\Window.cs",
+              "ToolTip": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK_2\\1. Getting Started\\1.2.2. Exercise 1\\src\\Window.cs",
+              "RelativeToolTip": "src\\Window.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAD4AAACTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T09:04:43.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK_2\\1. Getting Started\\1.2.2. Exercise 1\\src\\Program.cs",
+              "RelativeDocumentMoniker": "src\\Program.cs",
+              "ToolTip": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK_2\\1. Getting Started\\1.2.2. Exercise 1\\src\\Program.cs",
+              "RelativeToolTip": "src\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T09:04:05.313Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
