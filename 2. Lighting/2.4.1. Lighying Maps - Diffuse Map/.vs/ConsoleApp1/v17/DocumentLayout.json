@@ -1,25 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK_2\\2. Lighting\\2.4.1. Lighying Maps - Diffuse Map\\",
+  "WorkspaceRootPath": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK\\2. Lighting\\2.4.1. Lighying Maps - Diffuse Map\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{880A2EDD-FE96-4A1B-AF8E-91995E3FD04A}|ConsoleApp1.csproj|d:\\github\\meus reposit\u00F3rios\\learnopentk_2\\2. lighting\\2.4.1. lighying maps - diffuse map\\src\\window.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{880A2EDD-FE96-4A1B-AF8E-91995E3FD04A}|ConsoleApp1.csproj|d:\\github\\meus reposit\u00F3rios\\learnopentk\\2. lighting\\2.4.1. lighying maps - diffuse map\\src\\window.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{880A2EDD-FE96-4A1B-AF8E-91995E3FD04A}|ConsoleApp1.csproj|solutionrelative:src\\window.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{880A2EDD-FE96-4A1B-AF8E-91995E3FD04A}|ConsoleApp1.csproj|d:\\github\\meus reposit\u00F3rios\\learnopentk_2\\2. lighting\\2.4.1. lighying maps - diffuse map\\src\\shaders\\fragment_materials.glsl||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{880A2EDD-FE96-4A1B-AF8E-91995E3FD04A}|ConsoleApp1.csproj|solutionrelative:src\\shaders\\fragment_materials.glsl||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{880A2EDD-FE96-4A1B-AF8E-91995E3FD04A}|ConsoleApp1.csproj|d:\\github\\meus reposit\u00F3rios\\learnopentk_2\\2. lighting\\2.4.1. lighying maps - diffuse map\\src\\shaders\\vertex_materials.glsl||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{880A2EDD-FE96-4A1B-AF8E-91995E3FD04A}|ConsoleApp1.csproj|solutionrelative:src\\shaders\\vertex_materials.glsl||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{880A2EDD-FE96-4A1B-AF8E-91995E3FD04A}|ConsoleApp1.csproj|d:\\github\\meus reposit\u00F3rios\\learnopentk_2\\2. lighting\\2.4.1. lighying maps - diffuse map\\src\\shader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{880A2EDD-FE96-4A1B-AF8E-91995E3FD04A}|ConsoleApp1.csproj|d:\\github\\meus reposit\u00F3rios\\learnopentk\\2. lighting\\2.4.1. lighying maps - diffuse map\\src\\shader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{880A2EDD-FE96-4A1B-AF8E-91995E3FD04A}|ConsoleApp1.csproj|solutionrelative:src\\shader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{880A2EDD-FE96-4A1B-AF8E-91995E3FD04A}|ConsoleApp1.csproj|d:\\github\\meus reposit\u00F3rios\\learnopentk_2\\2. lighting\\2.4.1. lighying maps - diffuse map\\src\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{880A2EDD-FE96-4A1B-AF8E-91995E3FD04A}|ConsoleApp1.csproj|d:\\github\\meus reposit\u00F3rios\\learnopentk\\2. lighting\\2.4.1. lighying maps - diffuse map\\src\\shaders\\fragment_materials.glsl||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{880A2EDD-FE96-4A1B-AF8E-91995E3FD04A}|ConsoleApp1.csproj|solutionrelative:src\\shaders\\fragment_materials.glsl||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{880A2EDD-FE96-4A1B-AF8E-91995E3FD04A}|ConsoleApp1.csproj|d:\\github\\meus reposit\u00F3rios\\learnopentk\\2. lighting\\2.4.1. lighying maps - diffuse map\\src\\shaders\\vertex_materials.glsl||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{880A2EDD-FE96-4A1B-AF8E-91995E3FD04A}|ConsoleApp1.csproj|solutionrelative:src\\shaders\\vertex_materials.glsl||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{880A2EDD-FE96-4A1B-AF8E-91995E3FD04A}|ConsoleApp1.csproj|d:\\github\\meus reposit\u00F3rios\\learnopentk\\2. lighting\\2.4.1. lighying maps - diffuse map\\src\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{880A2EDD-FE96-4A1B-AF8E-91995E3FD04A}|ConsoleApp1.csproj|solutionrelative:src\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -34,51 +34,52 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "fragment_materials.glsl",
-              "DocumentMoniker": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK_2\\2. Lighting\\2.4.1. Lighying Maps - Diffuse Map\\src\\shaders\\fragment_materials.glsl",
+              "DocumentMoniker": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK\\2. Lighting\\2.4.1. Lighying Maps - Diffuse Map\\src\\shaders\\fragment_materials.glsl",
               "RelativeDocumentMoniker": "src\\shaders\\fragment_materials.glsl",
-              "ToolTip": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK_2\\2. Lighting\\2.4.1. Lighying Maps - Diffuse Map\\src\\shaders\\fragment_materials.glsl",
+              "ToolTip": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK\\2. Lighting\\2.4.1. Lighying Maps - Diffuse Map\\src\\shaders\\fragment_materials.glsl",
               "RelativeToolTip": "src\\shaders\\fragment_materials.glsl",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAiAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-02-19T13:55:41.543Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "vertex_materials.glsl",
-              "DocumentMoniker": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK_2\\2. Lighting\\2.4.1. Lighying Maps - Diffuse Map\\src\\shaders\\vertex_materials.glsl",
+              "DocumentMoniker": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK\\2. Lighting\\2.4.1. Lighying Maps - Diffuse Map\\src\\shaders\\vertex_materials.glsl",
               "RelativeDocumentMoniker": "src\\shaders\\vertex_materials.glsl",
-              "ToolTip": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK_2\\2. Lighting\\2.4.1. Lighying Maps - Diffuse Map\\src\\shaders\\vertex_materials.glsl",
+              "ToolTip": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK\\2. Lighting\\2.4.1. Lighying Maps - Diffuse Map\\src\\shaders\\vertex_materials.glsl",
               "RelativeToolTip": "src\\shaders\\vertex_materials.glsl",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-02-19T13:55:26.217Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Shader.cs",
-              "DocumentMoniker": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK_2\\2. Lighting\\2.4.1. Lighying Maps - Diffuse Map\\src\\Shader.cs",
+              "DocumentMoniker": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK\\2. Lighting\\2.4.1. Lighying Maps - Diffuse Map\\src\\Shader.cs",
               "RelativeDocumentMoniker": "src\\Shader.cs",
-              "ToolTip": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK_2\\2. Lighting\\2.4.1. Lighying Maps - Diffuse Map\\src\\Shader.cs",
+              "ToolTip": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK\\2. Lighting\\2.4.1. Lighying Maps - Diffuse Map\\src\\Shader.cs",
               "RelativeToolTip": "src\\Shader.cs",
-              "ViewState": "AQIAAFIAAAAAAAAAAAArwHwAAAAAAAAA",
+              "ViewState": "AQIAAFIAAAAAAAAAAAArwHoAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T09:16:07.043Z"
+              "WhenOpened": "2025-02-18T09:16:07.043Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Window.cs",
-              "DocumentMoniker": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK_2\\2. Lighting\\2.4.1. Lighying Maps - Diffuse Map\\src\\Window.cs",
+              "DocumentMoniker": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK\\2. Lighting\\2.4.1. Lighying Maps - Diffuse Map\\src\\Window.cs",
               "RelativeDocumentMoniker": "src\\Window.cs",
-              "ToolTip": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK_2\\2. Lighting\\2.4.1. Lighying Maps - Diffuse Map\\src\\Window.cs",
+              "ToolTip": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK\\2. Lighting\\2.4.1. Lighying Maps - Diffuse Map\\src\\Window.cs",
               "RelativeToolTip": "src\\Window.cs",
-              "ViewState": "AQIAANAAAAAAAAAAAAAmwOoAAAApAAAA",
+              "ViewState": "AQIAAMUAAAAAAAAAAAAAANkAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-18T09:04:43.146Z",
               "EditorCaption": ""
@@ -87,9 +88,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK_2\\2. Lighting\\2.4.1. Lighying Maps - Diffuse Map\\src\\Program.cs",
+              "DocumentMoniker": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK\\2. Lighting\\2.4.1. Lighying Maps - Diffuse Map\\src\\Program.cs",
               "RelativeDocumentMoniker": "src\\Program.cs",
-              "ToolTip": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK_2\\2. Lighting\\2.4.1. Lighying Maps - Diffuse Map\\src\\Program.cs",
+              "ToolTip": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK\\2. Lighting\\2.4.1. Lighying Maps - Diffuse Map\\src\\Program.cs",
               "RelativeToolTip": "src\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
