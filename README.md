@@ -22,17 +22,18 @@
 1.8.1. Coordinate Systems
 ![Image](https://github.com/user-attachments/assets/7fdf7f76-7f7d-4f2c-a7ef-265f2ad2dbd4)
 
-1.8.3. Coordinate Systems - Multiple
+1.8.2. Coordinate Systems - Depth
 ![Image](https://github.com/user-attachments/assets/d47b8b0c-4c14-46bf-9d4c-f1973e70193d)
+
+1.8.3. Coordinate Systems - Multiple
+![Image](https://github.com/user-attachments/assets/817dd434-e911-4ba0-86c3-17835d0a6fe8)
 
 # 2. Lighting
 2.1. Colors
-![Image](https://github.com/user-attachments/assets/817dd434-e911-4ba0-86c3-17835d0a6fe8)
-
-2.2.1. Basic Lighting - Diffuse
 ![Image](https://github.com/user-attachments/assets/bea34863-5067-4c1a-8259-5fbc6a2eb8e6)
 
-2.2.2. Basic Lighting - Specular
+2.2.1. Basic Lighting - Diffuse
 ![Image](https://github.com/user-attachments/assets/483d8959-203a-4c6f-b6bf-955d45a31157)
 
+2.2.2. Basic Lighting - Specular
 ![Image](https://github.com/user-attachments/assets/cab7ea34-a722-4311-843b-0627980f7216)
