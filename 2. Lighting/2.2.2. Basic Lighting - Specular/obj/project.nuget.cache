@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/bf5d65slco=",
+  "dgSpecHash": "hkLISKlCAyk=",
   "success": true,
-  "projectFilePath": "D:\\GitHub\\Meus Repositórios\\LearnOpenTK_2\\2. Lighting\\2.2.2. Basic Lighting - Specular\\ConsoleApp1.csproj",
+  "projectFilePath": "D:\\GitHub\\Meus Repositórios\\LearnOpenTK\\2. Lighting\\2.2.2. Basic Lighting - Specular\\ConsoleApp1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Morgana Stradivarius\\.nuget\\packages\\opentk\\4.9.3\\opentk.4.9.3.nupkg.sha512",
     "C:\\Users\\Morgana Stradivarius\\.nuget\\packages\\opentk.audio.openal\\4.9.3\\opentk.audio.openal.4.9.3.nupkg.sha512",

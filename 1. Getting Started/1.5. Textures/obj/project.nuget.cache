@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6XXBMaE/0rM=",
+  "dgSpecHash": "OiMs+N7faYY=",
   "success": true,
-  "projectFilePath": "D:\\GitHub\\Meus Repositórios\\LearnOpenTK_2\\1a\\1.5. Textures\\ConsoleApp1.csproj",
+  "projectFilePath": "D:\\GitHub\\Meus Repositórios\\LearnOpenTK\\1. Getting Started\\1.5. Textures\\ConsoleApp1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Morgana Stradivarius\\.nuget\\packages\\opentk\\4.9.3\\opentk.4.9.3.nupkg.sha512",
     "C:\\Users\\Morgana Stradivarius\\.nuget\\packages\\opentk.audio.openal\\4.9.3\\opentk.audio.openal.4.9.3.nupkg.sha512",

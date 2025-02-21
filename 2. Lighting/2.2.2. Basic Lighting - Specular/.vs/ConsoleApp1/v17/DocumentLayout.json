@@ -1,25 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK_2\\2. Lighting\\2.2.2. Basic Lighting - Specular\\",
+  "WorkspaceRootPath": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK\\2. Lighting\\2.2.2. Basic Lighting - Specular\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{880A2EDD-FE96-4A1B-AF8E-91995E3FD04A}|ConsoleApp1.csproj|d:\\github\\meus reposit\u00F3rios\\learnopentk_2\\2. lighting\\2.2.2. basic lighting - specular\\src\\window.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{880A2EDD-FE96-4A1B-AF8E-91995E3FD04A}|ConsoleApp1.csproj|d:\\github\\meus reposit\u00F3rios\\learnopentk\\2. lighting\\2.2.2. basic lighting - specular\\src\\window.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{880A2EDD-FE96-4A1B-AF8E-91995E3FD04A}|ConsoleApp1.csproj|solutionrelative:src\\window.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{880A2EDD-FE96-4A1B-AF8E-91995E3FD04A}|ConsoleApp1.csproj|d:\\github\\meus reposit\u00F3rios\\learnopentk_2\\2. lighting\\2.2.2. basic lighting - specular\\src\\shaders\\vertex_basic_lighting.glsl||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{880A2EDD-FE96-4A1B-AF8E-91995E3FD04A}|ConsoleApp1.csproj|d:\\github\\meus reposit\u00F3rios\\learnopentk\\2. lighting\\2.2.2. basic lighting - specular\\src\\shaders\\vertex_basic_lighting.glsl||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{880A2EDD-FE96-4A1B-AF8E-91995E3FD04A}|ConsoleApp1.csproj|solutionrelative:src\\shaders\\vertex_basic_lighting.glsl||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{880A2EDD-FE96-4A1B-AF8E-91995E3FD04A}|ConsoleApp1.csproj|d:\\github\\meus reposit\u00F3rios\\learnopentk_2\\2. lighting\\2.2.2. basic lighting - specular\\src\\shaders\\fragment_basic_lighting.glsl||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{880A2EDD-FE96-4A1B-AF8E-91995E3FD04A}|ConsoleApp1.csproj|d:\\github\\meus reposit\u00F3rios\\learnopentk\\2. lighting\\2.2.2. basic lighting - specular\\src\\shaders\\fragment_basic_lighting.glsl||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{880A2EDD-FE96-4A1B-AF8E-91995E3FD04A}|ConsoleApp1.csproj|solutionrelative:src\\shaders\\fragment_basic_lighting.glsl||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{880A2EDD-FE96-4A1B-AF8E-91995E3FD04A}|ConsoleApp1.csproj|d:\\github\\meus reposit\u00F3rios\\learnopentk_2\\2. lighting\\2.2.2. basic lighting - specular\\src\\shader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{880A2EDD-FE96-4A1B-AF8E-91995E3FD04A}|ConsoleApp1.csproj|d:\\github\\meus reposit\u00F3rios\\learnopentk\\2. lighting\\2.2.2. basic lighting - specular\\src\\shader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{880A2EDD-FE96-4A1B-AF8E-91995E3FD04A}|ConsoleApp1.csproj|solutionrelative:src\\shader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{880A2EDD-FE96-4A1B-AF8E-91995E3FD04A}|ConsoleApp1.csproj|d:\\github\\meus reposit\u00F3rios\\learnopentk_2\\2. lighting\\2.2.2. basic lighting - specular\\src\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{880A2EDD-FE96-4A1B-AF8E-91995E3FD04A}|ConsoleApp1.csproj|d:\\github\\meus reposit\u00F3rios\\learnopentk\\2. lighting\\2.2.2. basic lighting - specular\\src\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{880A2EDD-FE96-4A1B-AF8E-91995E3FD04A}|ConsoleApp1.csproj|solutionrelative:src\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -36,48 +36,45 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "fragment_basic_lighting.glsl",
-              "DocumentMoniker": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK_2\\2. Lighting\\2.2.2. Basic Lighting - Specular\\src\\shaders\\fragment_basic_lighting.glsl",
+              "DocumentMoniker": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK\\2. Lighting\\2.2.2. Basic Lighting - Specular\\src\\shaders\\fragment_basic_lighting.glsl",
               "RelativeDocumentMoniker": "src\\shaders\\fragment_basic_lighting.glsl",
-              "ToolTip": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK_2\\2. Lighting\\2.2.2. Basic Lighting - Specular\\src\\shaders\\fragment_basic_lighting.glsl",
+              "ToolTip": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK\\2. Lighting\\2.2.2. Basic Lighting - Specular\\src\\shaders\\fragment_basic_lighting.glsl",
               "RelativeToolTip": "src\\shaders\\fragment_basic_lighting.glsl",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-02-19T13:55:41.543Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-19T13:55:41.543Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "vertex_basic_lighting.glsl",
-              "DocumentMoniker": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK_2\\2. Lighting\\2.2.2. Basic Lighting - Specular\\src\\shaders\\vertex_basic_lighting.glsl",
+              "DocumentMoniker": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK\\2. Lighting\\2.2.2. Basic Lighting - Specular\\src\\shaders\\vertex_basic_lighting.glsl",
               "RelativeDocumentMoniker": "src\\shaders\\vertex_basic_lighting.glsl",
-              "ToolTip": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK_2\\2. Lighting\\2.2.2. Basic Lighting - Specular\\src\\shaders\\vertex_basic_lighting.glsl",
+              "ToolTip": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK\\2. Lighting\\2.2.2. Basic Lighting - Specular\\src\\shaders\\vertex_basic_lighting.glsl",
               "RelativeToolTip": "src\\shaders\\vertex_basic_lighting.glsl",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-02-19T13:55:26.217Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-19T13:55:26.217Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Shader.cs",
-              "DocumentMoniker": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK_2\\2. Lighting\\2.2.2. Basic Lighting - Specular\\src\\Shader.cs",
+              "DocumentMoniker": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK\\2. Lighting\\2.2.2. Basic Lighting - Specular\\src\\Shader.cs",
               "RelativeDocumentMoniker": "src\\Shader.cs",
-              "ToolTip": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK_2\\2. Lighting\\2.2.2. Basic Lighting - Specular\\src\\Shader.cs",
+              "ToolTip": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK\\2. Lighting\\2.2.2. Basic Lighting - Specular\\src\\Shader.cs",
               "RelativeToolTip": "src\\Shader.cs",
               "ViewState": "AQIAAEkAAAAAAAAAAAArwHQAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T09:16:07.043Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-18T09:16:07.043Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Window.cs",
-              "DocumentMoniker": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK_2\\2. Lighting\\2.2.2. Basic Lighting - Specular\\src\\Window.cs",
+              "DocumentMoniker": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK\\2. Lighting\\2.2.2. Basic Lighting - Specular\\src\\Window.cs",
               "RelativeDocumentMoniker": "src\\Window.cs",
-              "ToolTip": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK_2\\2. Lighting\\2.2.2. Basic Lighting - Specular\\src\\Window.cs",
+              "ToolTip": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK\\2. Lighting\\2.2.2. Basic Lighting - Specular\\src\\Window.cs",
               "RelativeToolTip": "src\\Window.cs",
               "ViewState": "AQIAAMEAAAAAAAAAAAAmwOQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -88,9 +85,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK_2\\2. Lighting\\2.2.2. Basic Lighting - Specular\\src\\Program.cs",
+              "DocumentMoniker": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK\\2. Lighting\\2.2.2. Basic Lighting - Specular\\src\\Program.cs",
               "RelativeDocumentMoniker": "src\\Program.cs",
-              "ToolTip": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK_2\\2. Lighting\\2.2.2. Basic Lighting - Specular\\src\\Program.cs",
+              "ToolTip": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK\\2. Lighting\\2.2.2. Basic Lighting - Specular\\src\\Program.cs",
               "RelativeToolTip": "src\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

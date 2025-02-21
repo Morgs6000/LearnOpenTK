@@ -434,11 +434,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitHub\\Meus Repositórios\\LearnOpenTK_2\\1a\\1.2. Hello Triangle\\ConsoleApp1.csproj",
+      "projectUniqueName": "D:\\GitHub\\Meus Repositórios\\LearnOpenTK\\1. Getting Started\\1.2. Hello Triangle\\ConsoleApp1.csproj",
       "projectName": "ConsoleApp1",
-      "projectPath": "D:\\GitHub\\Meus Repositórios\\LearnOpenTK_2\\1a\\1.2. Hello Triangle\\ConsoleApp1.csproj",
+      "projectPath": "D:\\GitHub\\Meus Repositórios\\LearnOpenTK\\1. Getting Started\\1.2. Hello Triangle\\ConsoleApp1.csproj",
       "packagesPath": "C:\\Users\\Morgana Stradivarius\\.nuget\\packages\\",
-      "outputPath": "D:\\GitHub\\Meus Repositórios\\LearnOpenTK_2\\1a\\1.2. Hello Triangle\\obj\\",
+      "outputPath": "D:\\GitHub\\Meus Repositórios\\LearnOpenTK\\1. Getting Started\\1.2. Hello Triangle\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
