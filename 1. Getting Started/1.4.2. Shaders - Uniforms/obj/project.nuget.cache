@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xA0KoFz9xIE=",
+  "dgSpecHash": "fb4kx7wQDM8=",
   "success": true,
-  "projectFilePath": "D:\\GitHub\\Meus Repositórios\\LearnOpenTK_2\\1a\\1.4.2. Shaders - Uniforms\\ConsoleApp1.csproj",
+  "projectFilePath": "D:\\GitHub\\Meus Repositórios\\LearnOpenTK\\1. Getting Started\\1.4.2. Shaders - Uniforms\\ConsoleApp1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Morgana Stradivarius\\.nuget\\packages\\opentk\\4.9.3\\opentk.4.9.3.nupkg.sha512",
     "C:\\Users\\Morgana Stradivarius\\.nuget\\packages\\opentk.audio.openal\\4.9.3\\opentk.audio.openal.4.9.3.nupkg.sha512",

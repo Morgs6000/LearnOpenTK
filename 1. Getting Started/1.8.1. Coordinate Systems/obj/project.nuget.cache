@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xWlUtHfM7/U=",
+  "dgSpecHash": "ULRTsdhksbU=",
   "success": true,
-  "projectFilePath": "D:\\GitHub\\Meus Repositórios\\LearnOpenTK\\1. Getting Started\\1.8. Coordinate Systems\\ConsoleApp1.csproj",
+  "projectFilePath": "D:\\GitHub\\Meus Repositórios\\LearnOpenTK\\1. Getting Started\\1.8.1. Coordinate Systems\\ConsoleApp1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Morgana Stradivarius\\.nuget\\packages\\opentk\\4.9.3\\opentk.4.9.3.nupkg.sha512",
     "C:\\Users\\Morgana Stradivarius\\.nuget\\packages\\opentk.audio.openal\\4.9.3\\opentk.audio.openal.4.9.3.nupkg.sha512",

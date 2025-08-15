@@ -1,30 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK_2\\1. Getting Started\\1.9.3. Camera - Zoom\\",
+  "WorkspaceRootPath": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK\\1. Getting Started\\1.9.3. Camera - Zoom\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{880A2EDD-FE96-4A1B-AF8E-91995E3FD04A}|ConsoleApp1.csproj|d:\\github\\meus reposit\u00F3rios\\learnopentk_2\\1. getting started\\1.9.3. camera - zoom\\src\\window.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{880A2EDD-FE96-4A1B-AF8E-91995E3FD04A}|ConsoleApp1.csproj|d:\\github\\meus reposit\u00F3rios\\learnopentk\\1. getting started\\1.9.3. camera - zoom\\src\\window.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{880A2EDD-FE96-4A1B-AF8E-91995E3FD04A}|ConsoleApp1.csproj|solutionrelative:src\\window.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{880A2EDD-FE96-4A1B-AF8E-91995E3FD04A}|ConsoleApp1.csproj|d:\\github\\meus reposit\u00F3rios\\learnopentk_2\\1. getting started\\1.9.3. camera - zoom\\src\\shaders\\vertex.glsl||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{880A2EDD-FE96-4A1B-AF8E-91995E3FD04A}|ConsoleApp1.csproj|d:\\github\\meus reposit\u00F3rios\\learnopentk\\1. getting started\\1.9.3. camera - zoom\\src\\texture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{880A2EDD-FE96-4A1B-AF8E-91995E3FD04A}|ConsoleApp1.csproj|solutionrelative:src\\texture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{880A2EDD-FE96-4A1B-AF8E-91995E3FD04A}|ConsoleApp1.csproj|d:\\github\\meus reposit\u00F3rios\\learnopentk\\1. getting started\\1.9.3. camera - zoom\\src\\shaders\\vertex.glsl||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{880A2EDD-FE96-4A1B-AF8E-91995E3FD04A}|ConsoleApp1.csproj|solutionrelative:src\\shaders\\vertex.glsl||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{880A2EDD-FE96-4A1B-AF8E-91995E3FD04A}|ConsoleApp1.csproj|d:\\github\\meus reposit\u00F3rios\\learnopentk_2\\1. getting started\\1.9.3. camera - zoom\\src\\shader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{880A2EDD-FE96-4A1B-AF8E-91995E3FD04A}|ConsoleApp1.csproj|d:\\github\\meus reposit\u00F3rios\\learnopentk\\1. getting started\\1.9.3. camera - zoom\\src\\shader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{880A2EDD-FE96-4A1B-AF8E-91995E3FD04A}|ConsoleApp1.csproj|solutionrelative:src\\shader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{880A2EDD-FE96-4A1B-AF8E-91995E3FD04A}|ConsoleApp1.csproj|d:\\github\\meus reposit\u00F3rios\\learnopentk_2\\1. getting started\\1.9.3. camera - zoom\\src\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{880A2EDD-FE96-4A1B-AF8E-91995E3FD04A}|ConsoleApp1.csproj|d:\\github\\meus reposit\u00F3rios\\learnopentk\\1. getting started\\1.9.3. camera - zoom\\src\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{880A2EDD-FE96-4A1B-AF8E-91995E3FD04A}|ConsoleApp1.csproj|solutionrelative:src\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{880A2EDD-FE96-4A1B-AF8E-91995E3FD04A}|ConsoleApp1.csproj|d:\\github\\meus reposit\u00F3rios\\learnopentk_2\\1. getting started\\1.9.3. camera - zoom\\src\\shaders\\fragment.glsl||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{880A2EDD-FE96-4A1B-AF8E-91995E3FD04A}|ConsoleApp1.csproj|d:\\github\\meus reposit\u00F3rios\\learnopentk\\1. getting started\\1.9.3. camera - zoom\\src\\shaders\\fragment.glsl||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{880A2EDD-FE96-4A1B-AF8E-91995E3FD04A}|ConsoleApp1.csproj|solutionrelative:src\\shaders\\fragment.glsl||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{880A2EDD-FE96-4A1B-AF8E-91995E3FD04A}|ConsoleApp1.csproj|d:\\github\\meus reposit\u00F3rios\\learnopentk_2\\1. getting started\\1.9.3. camera - zoom\\src\\texture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{880A2EDD-FE96-4A1B-AF8E-91995E3FD04A}|ConsoleApp1.csproj|solutionrelative:src\\texture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,35 +38,35 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Texture.cs",
-              "DocumentMoniker": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK_2\\1. Getting Started\\1.9.3. Camera - Zoom\\src\\Texture.cs",
+              "DocumentMoniker": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK\\1. Getting Started\\1.9.3. Camera - Zoom\\src\\Texture.cs",
               "RelativeDocumentMoniker": "src\\Texture.cs",
-              "ToolTip": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK_2\\1. Getting Started\\1.9.3. Camera - Zoom\\src\\Texture.cs",
+              "ToolTip": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK\\1. Getting Started\\1.9.3. Camera - Zoom\\src\\Texture.cs",
               "RelativeToolTip": "src\\Texture.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAkwCAAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-18T10:42:15.016Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Shader.cs",
-              "DocumentMoniker": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK_2\\1. Getting Started\\1.9.3. Camera - Zoom\\src\\Shader.cs",
+              "DocumentMoniker": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK\\1. Getting Started\\1.9.3. Camera - Zoom\\src\\Shader.cs",
               "RelativeDocumentMoniker": "src\\Shader.cs",
-              "ToolTip": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK_2\\1. Getting Started\\1.9.3. Camera - Zoom\\src\\Shader.cs",
+              "ToolTip": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK\\1. Getting Started\\1.9.3. Camera - Zoom\\src\\Shader.cs",
               "RelativeToolTip": "src\\Shader.cs",
-              "ViewState": "AQIAAEkAAAAAAAAAAAArwG0AAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-18T09:16:07.043Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Fragment.glsl",
-              "DocumentMoniker": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK_2\\1. Getting Started\\1.9.3. Camera - Zoom\\src\\shaders\\Fragment.glsl",
+              "DocumentMoniker": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK\\1. Getting Started\\1.9.3. Camera - Zoom\\src\\shaders\\Fragment.glsl",
               "RelativeDocumentMoniker": "src\\shaders\\Fragment.glsl",
-              "ToolTip": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK_2\\1. Getting Started\\1.9.3. Camera - Zoom\\src\\shaders\\Fragment.glsl",
+              "ToolTip": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK\\1. Getting Started\\1.9.3. Camera - Zoom\\src\\shaders\\Fragment.glsl",
               "RelativeToolTip": "src\\shaders\\Fragment.glsl",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
@@ -74,13 +74,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Vertex.glsl",
-              "DocumentMoniker": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK_2\\1. Getting Started\\1.9.3. Camera - Zoom\\src\\shaders\\Vertex.glsl",
+              "DocumentMoniker": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK\\1. Getting Started\\1.9.3. Camera - Zoom\\src\\shaders\\Vertex.glsl",
               "RelativeDocumentMoniker": "src\\shaders\\Vertex.glsl",
-              "ToolTip": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK_2\\1. Getting Started\\1.9.3. Camera - Zoom\\src\\shaders\\Vertex.glsl",
+              "ToolTip": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK\\1. Getting Started\\1.9.3. Camera - Zoom\\src\\shaders\\Vertex.glsl",
               "RelativeToolTip": "src\\shaders\\Vertex.glsl",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA+AAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-02-18T09:15:25.913Z"
             },
@@ -88,22 +88,22 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Window.cs",
-              "DocumentMoniker": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK_2\\1. Getting Started\\1.9.3. Camera - Zoom\\src\\Window.cs",
+              "DocumentMoniker": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK\\1. Getting Started\\1.9.3. Camera - Zoom\\src\\Window.cs",
               "RelativeDocumentMoniker": "src\\Window.cs",
-              "ToolTip": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK_2\\1. Getting Started\\1.9.3. Camera - Zoom\\src\\Window.cs",
+              "ToolTip": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK\\1. Getting Started\\1.9.3. Camera - Zoom\\src\\Window.cs",
               "RelativeToolTip": "src\\Window.cs",
-              "ViewState": "AQIAANsAAAAAAAAAAAAkwAYBAAAAAAAA",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAAAN0AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-18T09:04:43.146Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK_2\\1. Getting Started\\1.9.3. Camera - Zoom\\src\\Program.cs",
+              "DocumentMoniker": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK\\1. Getting Started\\1.9.3. Camera - Zoom\\src\\Program.cs",
               "RelativeDocumentMoniker": "src\\Program.cs",
-              "ToolTip": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK_2\\1. Getting Started\\1.9.3. Camera - Zoom\\src\\Program.cs",
+              "ToolTip": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK\\1. Getting Started\\1.9.3. Camera - Zoom\\src\\Program.cs",
               "RelativeToolTip": "src\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

@@ -1,0 +1,151 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK\\8. In Practice\\8.3. 2D Game\\8.3.4. Levels\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4DCD15B1-783C-4D44-BB90-D0647895F0EB}|ConsoleApp1.csproj|d:\\github\\meus reposit\u00F3rios\\learnopentk\\8. in practice\\8.3. 2d game\\8.3.4. levels\\src\\shaders\\vertex.glsl||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{4DCD15B1-783C-4D44-BB90-D0647895F0EB}|ConsoleApp1.csproj|solutionrelative:src\\shaders\\vertex.glsl||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DCD15B1-783C-4D44-BB90-D0647895F0EB}|ConsoleApp1.csproj|d:\\github\\meus reposit\u00F3rios\\learnopentk\\8. in practice\\8.3. 2d game\\8.3.4. levels\\src\\spriterenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DCD15B1-783C-4D44-BB90-D0647895F0EB}|ConsoleApp1.csproj|solutionrelative:src\\spriterenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DCD15B1-783C-4D44-BB90-D0647895F0EB}|ConsoleApp1.csproj|d:\\github\\meus reposit\u00F3rios\\learnopentk\\8. in practice\\8.3. 2d game\\8.3.4. levels\\src\\resourcemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DCD15B1-783C-4D44-BB90-D0647895F0EB}|ConsoleApp1.csproj|solutionrelative:src\\resourcemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DCD15B1-783C-4D44-BB90-D0647895F0EB}|ConsoleApp1.csproj|d:\\github\\meus reposit\u00F3rios\\learnopentk\\8. in practice\\8.3. 2d game\\8.3.4. levels\\src\\texture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DCD15B1-783C-4D44-BB90-D0647895F0EB}|ConsoleApp1.csproj|solutionrelative:src\\texture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DCD15B1-783C-4D44-BB90-D0647895F0EB}|ConsoleApp1.csproj|d:\\github\\meus reposit\u00F3rios\\learnopentk\\8. in practice\\8.3. 2d game\\8.3.4. levels\\src\\shader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DCD15B1-783C-4D44-BB90-D0647895F0EB}|ConsoleApp1.csproj|solutionrelative:src\\shader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DCD15B1-783C-4D44-BB90-D0647895F0EB}|ConsoleApp1.csproj|d:\\github\\meus reposit\u00F3rios\\learnopentk\\8. in practice\\8.3. 2d game\\8.3.4. levels\\src\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DCD15B1-783C-4D44-BB90-D0647895F0EB}|ConsoleApp1.csproj|solutionrelative:src\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DCD15B1-783C-4D44-BB90-D0647895F0EB}|ConsoleApp1.csproj|d:\\github\\meus reposit\u00F3rios\\learnopentk\\8. in practice\\8.3. 2d game\\8.3.4. levels\\src\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DCD15B1-783C-4D44-BB90-D0647895F0EB}|ConsoleApp1.csproj|solutionrelative:src\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DCD15B1-783C-4D44-BB90-D0647895F0EB}|ConsoleApp1.csproj|d:\\github\\meus reposit\u00F3rios\\learnopentk\\8. in practice\\8.3. 2d game\\8.3.4. levels\\src\\shaders\\fragment.glsl||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{4DCD15B1-783C-4D44-BB90-D0647895F0EB}|ConsoleApp1.csproj|solutionrelative:src\\shaders\\fragment.glsl||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ResourceManager.cs",
+              "DocumentMoniker": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK\\8. In Practice\\8.3. 2D Game\\8.3.4. Levels\\src\\ResourceManager.cs",
+              "RelativeDocumentMoniker": "src\\ResourceManager.cs",
+              "ToolTip": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK\\8. In Practice\\8.3. 2D Game\\8.3.4. Levels\\src\\ResourceManager.cs",
+              "RelativeToolTip": "src\\ResourceManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T09:11:56.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SpriteRenderer.cs",
+              "DocumentMoniker": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK\\8. In Practice\\8.3. 2D Game\\8.3.4. Levels\\src\\SpriteRenderer.cs",
+              "RelativeDocumentMoniker": "src\\SpriteRenderer.cs",
+              "ToolTip": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK\\8. In Practice\\8.3. 2D Game\\8.3.4. Levels\\src\\SpriteRenderer.cs",
+              "RelativeToolTip": "src\\SpriteRenderer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T09:02:35.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Vertex.glsl",
+              "DocumentMoniker": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK\\8. In Practice\\8.3. 2D Game\\8.3.4. Levels\\src\\shaders\\Vertex.glsl",
+              "RelativeDocumentMoniker": "src\\shaders\\Vertex.glsl",
+              "ToolTip": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK\\8. In Practice\\8.3. 2D Game\\8.3.4. Levels\\src\\shaders\\Vertex.glsl*",
+              "RelativeToolTip": "src\\shaders\\Vertex.glsl*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-02-22T08:54:02.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Fragment.glsl",
+              "DocumentMoniker": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK\\8. In Practice\\8.3. 2D Game\\8.3.4. Levels\\src\\shaders\\Fragment.glsl",
+              "RelativeDocumentMoniker": "src\\shaders\\Fragment.glsl",
+              "ToolTip": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK\\8. In Practice\\8.3. 2D Game\\8.3.4. Levels\\src\\shaders\\Fragment.glsl",
+              "RelativeToolTip": "src\\shaders\\Fragment.glsl",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-02-22T08:54:02.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Texture.cs",
+              "DocumentMoniker": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK\\8. In Practice\\8.3. 2D Game\\8.3.4. Levels\\src\\Texture.cs",
+              "RelativeDocumentMoniker": "src\\Texture.cs",
+              "ToolTip": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK\\8. In Practice\\8.3. 2D Game\\8.3.4. Levels\\src\\Texture.cs",
+              "RelativeToolTip": "src\\Texture.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T08:53:48.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Shader.cs",
+              "DocumentMoniker": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK\\8. In Practice\\8.3. 2D Game\\8.3.4. Levels\\src\\Shader.cs",
+              "RelativeDocumentMoniker": "src\\Shader.cs",
+              "ToolTip": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK\\8. In Practice\\8.3. 2D Game\\8.3.4. Levels\\src\\Shader.cs",
+              "RelativeToolTip": "src\\Shader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T08:53:30.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Game.cs",
+              "DocumentMoniker": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK\\8. In Practice\\8.3. 2D Game\\8.3.4. Levels\\src\\Game.cs",
+              "RelativeDocumentMoniker": "src\\Game.cs",
+              "ToolTip": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK\\8. In Practice\\8.3. 2D Game\\8.3.4. Levels\\src\\Game.cs",
+              "RelativeToolTip": "src\\Game.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T08:48:41.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK\\8. In Practice\\8.3. 2D Game\\8.3.4. Levels\\src\\Program.cs",
+              "RelativeDocumentMoniker": "src\\Program.cs",
+              "ToolTip": "D:\\GitHub\\Meus Reposit\u00F3rios\\LearnOpenTK\\8. In Practice\\8.3. 2D Game\\8.3.4. Levels\\src\\Program.cs",
+              "RelativeToolTip": "src\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T08:48:23.222Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
