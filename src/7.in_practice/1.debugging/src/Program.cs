@@ -305,7 +305,7 @@ public class Program : GameWindow
 
         if (data != null)
         {
-            GL.TexImage2D(TextureTarget.Texture2D, 0, PixelInternalFormat.Rgb, width, height, 0, PixelFormat.Rgb, PixelType.UnsignedByte, data);
+            GL.TexImage2D((TextureTarget)FramebufferTarget.Framebuffer, 0, PixelInternalFormat.Rgb, width, height, 0, PixelFormat.Rgb, PixelType.UnsignedByte, data);
             GL.GenerateMipmap(GenerateMipmapTarget.Texture2D);
 
             GL.TexParameter(TextureTarget.Texture2D, TextureParameterName.TextureWrapS, (int)TextureWrapMode.Repeat);

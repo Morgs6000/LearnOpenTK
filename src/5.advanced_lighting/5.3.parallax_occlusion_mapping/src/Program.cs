@@ -12,7 +12,7 @@ public class Program : GameWindow
     // configurações
     private const int SCR_WIDTH = 800;
     private const int SCR_HEIGHT = 600;
-    private bool _gammaEnabled = false;
+    private float _heightScale = 0.1f;
 
     // câmera
     private Camera _camera = new Camera(new Vector3(0.0f, 0.0f, 3.0f));
@@ -26,28 +26,13 @@ public class Program : GameWindow
 
     private Shader _shader;
 
-    private uint _planeVAO, _planeVBO;
-
-    private uint _floorTexture;
-    private uint _floorTextureGammaCorrected;
+    private uint _diffuseMap;
+    private uint _normalMap;
+    private uint _heightMap;
 
     // informações de iluminação
     // --------------------------------------------------
-    private Vector3[] _lightPositions =
-    {
-        new Vector3(-3.0f, 0.0f, 0.0f),
-        new Vector3(-1.0f, 0.0f, 0.0f),
-        new Vector3( 1.0f, 0.0f, 0.0f),
-        new Vector3( 3.0f, 0.0f, 0.0f)
-    };
-
-    private Vector3[] _lightColors =
-    {
-        new Vector3(0.25f),
-        new Vector3(0.50f),
-        new Vector3(0.75f),
-        new Vector3(1.00f)
-    };
+    private Vector3 _lightPos = new Vector3(0.5f, 1.0f, 0.3f);
     
     private static void Main(string[] args)
     {
@@ -90,58 +75,32 @@ public class Program : GameWindow
         // configurar estado global do OpenGL
         // --------------------------------------------------
         GL.Enable(EnableCap.DepthTest);
-        GL.Enable(EnableCap.Blend);
-        GL.BlendFunc(BlendingFactor.SrcAlpha, BlendingFactor.OneMinusSrcAlpha);
 
         // construir e compilar nosso programa de shader
         // --------------------------------------------------
-        _shader = new Shader("src/gamma_correction.vs", "src/gamma_correction.fs");
+        _shader = new Shader("src/parallax_mapping.vs", "src/parallax_mapping.fs");
     }
 
     protected override void OnLoad()
     {
-        // configurar dados de vértice (e buffer(s)) e configurar atributos de vértice
-        // --------------------------------------------------
-        float[] planeVertices =
-        {
-            // posições              // normais          // coordenadas de textura
-            -10.0f, -0.5f, -10.0f,   0.0f, 1.0f, 0.0f,    0.0f,  0.0f,
-             10.0f, -0.5f, -10.0f,   0.0f, 1.0f, 0.0f,   10.0f,  0.0f,
-             10.0f, -0.5f,  10.0f,   0.0f, 1.0f, 0.0f,   10.0f, 10.0f,
-            -10.0f, -0.5f, -10.0f,   0.0f, 1.0f, 0.0f,    0.0f,  0.0f,
-             10.0f, -0.5f,  10.0f,   0.0f, 1.0f, 0.0f,   10.0f, 10.0f,
-            -10.0f, -0.5f,  10.0f,   0.0f, 1.0f, 0.0f,    0.0f, 10.0f
-        };
-
-        // plane VAO
-        GL.GenVertexArrays(1, out _planeVAO);
-        GL.GenBuffers(1, out _planeVBO);
-
-        GL.BindVertexArray(_planeVAO);
-
-        GL.BindBuffer(BufferTarget.ArrayBuffer, _planeVBO);
-        GL.BufferData(BufferTarget.ArrayBuffer, planeVertices.Length * sizeof(float), planeVertices, BufferUsageHint.StaticDraw);
-
-        GL.EnableVertexAttribArray(0);
-        GL.VertexAttribPointer(0, 3, VertexAttribPointerType.Float, false, 8 * sizeof(float), 0);
-
-        GL.EnableVertexAttribArray(1);
-        GL.VertexAttribPointer(1, 3, VertexAttribPointerType.Float, false, 8 * sizeof(float), 3 * sizeof(float));
-
-        GL.EnableVertexAttribArray(2);
-        GL.VertexAttribPointer(2, 2, VertexAttribPointerType.Float, false, 8 * sizeof(float), 6 * sizeof(float));
-
-        GL.BindVertexArray(0);
-
         // carregar texturas
         // --------------------------------------------------
-        _floorTexture               = LoadTexture("res/textures/wood.png", false);
-        _floorTextureGammaCorrected = LoadTexture("res/textures/wood.png", true);
+        _diffuseMap = LoadTexture("res/textures/bricks2.jpg");
+        _normalMap = LoadTexture("res/textures/bricks2_normal.jpg");
+        _heightMap = LoadTexture("res/textures/bricks2_disp.jpg");
+
+        /*
+        _diffuseMap = LoadTexture("res/textures/toy_box_diffuse.png");
+        _normalMap = LoadTexture("res/textures/toy_box_normal.png");
+        _heightMap = LoadTexture("res/textures/toy_box_disp.png");
+        */
 
         // configuração do shader
         // --------------------------------------------------
         _shader.Use();
-        _shader.SetInt("floorTexture", 0);
+        _shader.SetInt("diffuseMap", 0);
+        _shader.SetInt("normalMap", 1);
+        _shader.SetInt("depthMap", 2);
     }
 
     protected override void OnResize(ResizeEventArgs e)
@@ -174,33 +133,48 @@ public class Program : GameWindow
         GL.ClearColor(0.1f, 0.1f, 0.1f, 1.0f);
         GL.Clear(ClearBufferMask.ColorBufferBit | ClearBufferMask.DepthBufferBit);
 
-        // desenhar objetos
-        _shader.Use();
-
+        // configurar matrizes de visualização/projeção
         Matrix4 projection = Matrix4.CreatePerspectiveFieldOfView(
             fovy:      MathHelper.DegreesToRadians(_camera.Zoom), 
             aspect:    (float)SCR_WIDTH / (float)SCR_HEIGHT, 
             depthNear: 0.1f, 
-            depthFar:  1000.0f
+            depthFar:  100.0f
         );
         Matrix4 view = _camera.GetViewMatrix();
 
+        _shader.Use();
         _shader.SetMat4("projection", projection);
         _shader.SetMat4("view", view);
 
-        // definir uniformes claros
-        GL.Uniform3(GL.GetUniformLocation(_shader.ID, "lightPositions"), 4, _lightPositions.SelectMany(v => new[] { v.X, v.Y, v.Z }).ToArray());
-        GL.Uniform3(GL.GetUniformLocation(_shader.ID, "lightColors"), 4, _lightColors.SelectMany(v => new [] { v.X, v.Y, v.Z }).ToArray());
+        // renderizar quadrilátero mapeado por normais
+        Matrix4 model = Matrix4.Identity;
+        model *= Matrix4.CreateFromAxisAngle(new Vector3(1.0f, 0.0f, 1.0f), MathHelper.DegreesToRadians((float)GLFW.GetTime() * -10.0f)); // rotaciona o quad para exibir o normal mapping a partir de múltiplas direções
+        _shader.SetMat4("model", model);
+
         _shader.SetVec3("viewPos", _camera.Position);
-        _shader.SetInt("gamma", _gammaEnabled ? 1 : 0);
+        _shader.SetVec3("lightPos", _lightPos);
+        _shader.SetFloat("heightScale", _heightScale); // ajuste com as teclas Q e E
 
-        // floor
-        GL.BindVertexArray(_planeVAO);
+        Console.WriteLine(_heightScale);
+
         GL.ActiveTexture(TextureUnit.Texture0);
-        GL.BindTexture(TextureTarget.Texture2D, _gammaEnabled ? _floorTextureGammaCorrected : _floorTexture);
-        GL.DrawArrays(PrimitiveType.Triangles, 0, 6);
+        GL.BindTexture(TextureTarget.Texture2D, _diffuseMap);
 
-        Console.WriteLine(_gammaEnabled ? "Gamma enabled" : "Gamma disabled");
+        GL.ActiveTexture(TextureUnit.Texture1);
+        GL.BindTexture(TextureTarget.Texture2D, _normalMap);
+
+        GL.ActiveTexture(TextureUnit.Texture2);
+        GL.BindTexture(TextureTarget.Texture2D, _heightMap);
+
+        RenderQuad();
+
+        // renderiza a fonte de luz (simplesmente renderiza novamente um plano menor na posição da luz para depuração/visualização)
+        model = Matrix4.Identity;
+        model *= Matrix4.CreateScale(new Vector3(0.1f));
+        model *= Matrix4.CreateTranslation(_lightPos);
+        _shader.SetMat4("model", model);
+
+        RenderQuad();
 
         // glfw: troca os buffers e processa eventos de E/S (teclas pressionadas/liberadas, movimento do mouse, etc.)
         // --------------------------------------------------
@@ -209,10 +183,115 @@ public class Program : GameWindow
 
     protected override void OnUnload()
     {
-        // opcional: desalocar todos os recursos assim que não forem mais necessários:
-        // --------------------------------------------------
-        GL.DeleteVertexArrays(1, ref _planeVAO);
-        GL.DeleteBuffers(1, ref _planeVBO);
+        
+    }
+
+    // renderiza um quad 1x1 em NDC com vetores tangentes calculados manualmente
+    // --------------------------------------------------
+    private uint _quadVAO = 0;
+    private uint _quadVBO;
+
+    private void RenderQuad()
+    {
+        if (_quadVAO == 0)
+        {
+            // posições
+            Vector3 pos1 = new Vector3(-1.0f,  1.0f,  0.0f);
+            Vector3 pos2 = new Vector3(-1.0f, -1.0f,  0.0f);
+            Vector3 pos3 = new Vector3( 1.0f, -1.0f,  0.0f);
+            Vector3 pos4 = new Vector3( 1.0f,  1.0f,  0.0f);
+
+            // coordenadas de textura
+            Vector2 uv1 = new Vector2(0.0f, 1.0f);
+            Vector2 uv2 = new Vector2(0.0f, 0.0f);
+            Vector2 uv3 = new Vector2(1.0f, 0.0f);
+            Vector2 uv4 = new Vector2(1.0f, 1.0f);
+
+            // vetor normal
+            Vector3 nm = new Vector3(0.0f, 0.0f, 1.0f);
+
+            // calcular vetores tangente/bitangente de ambos os triângulos
+            Vector3 tangent1, bitangent1;
+            Vector3 tangent2, bitangent2;
+
+            // triângulo 1
+            // --------------------------------------------------
+            Vector3 edge1 = pos2 - pos1;
+            Vector3 edge2 = pos3 - pos1;
+            Vector2 deltaUV1 = uv2 - uv1;
+            Vector2 deltaUV2 = uv3 - uv1;
+
+            float f = 1.0f / (deltaUV1.X * deltaUV2.Y - deltaUV2.X * deltaUV1.Y);
+
+            tangent1.X = f * (deltaUV2.Y * edge1.X - deltaUV1.Y * edge2.X);
+            tangent1.Y = f * (deltaUV2.Y * edge1.Y - deltaUV1.Y * edge2.Y);
+            tangent1.Z = f * (deltaUV2.Y * edge1.Z - deltaUV1.Y * edge2.Z);
+            tangent1 = Vector3.Normalize(tangent1)
+;
+            bitangent1.X = f * (-deltaUV2.X * edge1.X + deltaUV1.X * edge2.X);
+            bitangent1.Y = f * (-deltaUV2.X * edge1.Y + deltaUV1.X * edge2.Y);
+            bitangent1.Z = f * (-deltaUV2.X * edge1.Z + deltaUV1.X * edge2.Z);
+            bitangent1 = Vector3.Normalize(bitangent1);
+
+            // triângulo 2
+            // --------------------------------------------------
+            edge1 = pos3 - pos1;
+            edge2 = pos4 - pos1;
+            deltaUV1 = uv3 - uv1;
+            deltaUV2 = uv4 - uv1;
+
+            f = 1.0f / (deltaUV1.X * deltaUV2.Y - deltaUV2.X * deltaUV1.Y);
+
+            tangent2.X = f * (deltaUV2.Y * edge1.X - deltaUV1.Y * edge2.X);
+            tangent2.Y = f * (deltaUV2.Y * edge1.Y - deltaUV1.Y * edge2.Y);
+            tangent2.Z = f * (deltaUV2.Y * edge1.Z - deltaUV1.Y * edge2.Z);
+            tangent2 = Vector3.Normalize(tangent2);
+
+            bitangent2.X = f * (-deltaUV2.X * edge1.X + deltaUV1.X * edge2.X);
+            bitangent2.Y = f * (-deltaUV2.X * edge1.Y + deltaUV1.X * edge2.Y);
+            bitangent2.Z = f * (-deltaUV2.X * edge1.Z + deltaUV1.X * edge2.Z);
+            bitangent2 = Vector3.Normalize(bitangent2);
+
+            float[] quadVertices =
+            {
+                // positions            // normal         // texcoords  // tangent                          // bitangent
+                pos1.X, pos1.Y, pos1.Z, nm.X, nm.Y, nm.Z, uv1.X, uv1.Y, tangent1.X, tangent1.Y, tangent1.Z, bitangent1.X, bitangent1.Y, bitangent1.Z,
+                pos2.X, pos2.Y, pos2.Z, nm.X, nm.Y, nm.Z, uv2.X, uv2.Y, tangent1.X, tangent1.Y, tangent1.Z, bitangent1.X, bitangent1.Y, bitangent1.Z,
+                pos3.X, pos3.Y, pos3.Z, nm.X, nm.Y, nm.Z, uv3.X, uv3.Y, tangent1.X, tangent1.Y, tangent1.Z, bitangent1.X, bitangent1.Y, bitangent1.Z,
+
+                pos1.X, pos1.Y, pos1.Z, nm.X, nm.Y, nm.Z, uv1.X, uv1.Y, tangent2.X, tangent2.Y, tangent2.Z, bitangent2.X, bitangent2.Y, bitangent2.Z,
+                pos3.X, pos3.Y, pos3.Z, nm.X, nm.Y, nm.Z, uv3.X, uv3.Y, tangent2.X, tangent2.Y, tangent2.Z, bitangent2.X, bitangent2.Y, bitangent2.Z,
+                pos4.X, pos4.Y, pos4.Z, nm.X, nm.Y, nm.Z, uv4.X, uv4.Y, tangent2.X, tangent2.Y, tangent2.Z, bitangent2.X, bitangent2.Y, bitangent2.Z
+            };
+
+            // configurar o VAO do plano
+            GL.GenVertexArrays(1, out _quadVAO);
+            GL.GenBuffers(1, out _quadVBO);
+
+            GL.BindVertexArray(_quadVAO);
+
+            GL.BindBuffer(BufferTarget.ArrayBuffer, _quadVBO);
+            GL.BufferData(BufferTarget.ArrayBuffer, quadVertices.Length * sizeof(float), quadVertices, BufferUsageHint.StaticDraw);
+
+            GL.EnableVertexAttribArray(0);
+            GL.VertexAttribPointer(0, 3, VertexAttribPointerType.Float, false, 14 * sizeof(float), 0);
+
+            GL.EnableVertexAttribArray(1);
+            GL.VertexAttribPointer(1, 3, VertexAttribPointerType.Float, false, 14 * sizeof(float), 3 * sizeof(float));
+
+            GL.EnableVertexAttribArray(2);
+            GL.VertexAttribPointer(2, 2, VertexAttribPointerType.Float, false, 14 * sizeof(float), 6 * sizeof(float));
+
+            GL.EnableVertexAttribArray(3);
+            GL.VertexAttribPointer(3, 3, VertexAttribPointerType.Float, false, 14 * sizeof(float), 8 * sizeof(float));
+
+            GL.EnableVertexAttribArray(4);
+            GL.VertexAttribPointer(4, 3, VertexAttribPointerType.Float, false, 14 * sizeof(float), 11 * sizeof(float));
+        }
+
+        GL.BindVertexArray(_quadVAO);
+        GL.DrawArrays(PrimitiveType.Triangles, 0, 6);
+        GL.BindVertexArray(0);
     }
 
     // processar toda a entrada: consultar a GLFW para saber se teclas relevantes foram pressionadas ou liberadas neste quadro e reagir de acordo
@@ -241,9 +320,27 @@ public class Program : GameWindow
             _camera.ProcessKeyboard(Camera_Movement.RIGHT, _deltaTime);
         }
 
-        if (KeyboardState.IsKeyPressed(Keys.Space))
+        if (KeyboardState.IsKeyDown(Keys.Q))
         {
-            _gammaEnabled = !_gammaEnabled;
+            if (_heightScale > 0.0f)
+            {
+                _heightScale -= 0.0005f;
+            }
+            else
+            {
+                _heightScale = 0.0f;
+            }
+        }
+        if (KeyboardState.IsKeyDown(Keys.E))
+        {
+            if (_heightScale < 1.0f)
+            {
+                _heightScale += 0.0005f;
+            }
+            else
+            {
+                _heightScale = 1.0f;
+            }
         }
     }
 
@@ -289,7 +386,7 @@ public class Program : GameWindow
 
     // função utilitária para carregar uma textura 2D a partir de um arquivo
     // --------------------------------------------------
-    private uint LoadTexture(string path, bool gammaCorrection)
+    private uint LoadTexture(string path)
     {
         uint textureID;
         GL.GenTextures(1, out textureID);
@@ -320,12 +417,12 @@ public class Program : GameWindow
             }
             else if (image.Comp == ColorComponents.RedGreenBlue)
             {
-                pixelInternalFormat = gammaCorrection ? PixelInternalFormat.Srgb : PixelInternalFormat.Rgb;
+                pixelInternalFormat = PixelInternalFormat.Rgb;
                 pixelFormat = PixelFormat.Rgb;
             }
             else if (image.Comp == ColorComponents.RedGreenBlueAlpha)
             {
-                pixelInternalFormat = gammaCorrection ? PixelInternalFormat.SrgbAlpha : PixelInternalFormat.Rgba;
+                pixelInternalFormat = PixelInternalFormat.Rgba;
                 pixelFormat = PixelFormat.Rgba;
             }
 

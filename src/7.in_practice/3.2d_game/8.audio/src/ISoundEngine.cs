@@ -20,7 +20,7 @@ public class ISoundEngine
         
     }
 
-    public void Play2D(string filePath, bool value)
+    public void Play2D(string filePath, bool shouldLoop)
     {
         // if (args.Length != 1)
         // {
@@ -90,7 +90,7 @@ public class ISoundEngine
 
         _source = AL.GenSource();
         _buffer = AL.GenBuffer();
-        AL.Source(_source, ALSourceb.Looping, value);
+        AL.Source(_source, ALSourceb.Looping, shouldLoop);
 
         while (index + 4 < file.Length)
         {

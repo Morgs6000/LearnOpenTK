@@ -135,7 +135,9 @@ public class Program : GameWindow
         // criar textura de profundidade
         GL.GenTextures(1, out _depthMap);
         GL.BindTexture(TextureTarget.Texture2D, _depthMap);
+
         GL.TexImage2D(TextureTarget.Texture2D, 0, PixelInternalFormat.DepthComponent, SHADOW_WIDTH, SHADOW_HEIGHT, 0, PixelFormat.DepthComponent, PixelType.Float, IntPtr.Zero);
+
         GL.TexParameter(TextureTarget.Texture2D, TextureParameterName.TextureMinFilter, (int)TextureMinFilter.Nearest);
         GL.TexParameter(TextureTarget.Texture2D, TextureParameterName.TextureMagFilter, (int)TextureMagFilter.Nearest);
         GL.TexParameter(TextureTarget.Texture2D, TextureParameterName.TextureWrapS, (int)TextureWrapMode.Repeat);
@@ -144,8 +146,10 @@ public class Program : GameWindow
         // anexa a textura de profundidade como buffer de profundidade do FBO
         GL.BindFramebuffer(FramebufferTarget.Framebuffer, _depthMapFBO);
         GL.FramebufferTexture2D(FramebufferTarget.Framebuffer, FramebufferAttachment.DepthAttachment, TextureTarget.Texture2D, _depthMap, 0);
+
         GL.DrawBuffer(DrawBufferMode.None);
         GL.ReadBuffer(ReadBufferMode.None);
+
         GL.BindFramebuffer(FramebufferTarget.Framebuffer, 0);
 
         // configuração do shader
@@ -202,7 +206,7 @@ public class Program : GameWindow
             target: new Vector3(0.0f), 
             up:     new Vector3(0.0f, 1.0f, 0.0f)
         );
-        lightSpaceMatrix = lightProjection * lightView;
+        lightSpaceMatrix = lightView * lightProjection;
 
         // renderizar a cena do ponto de vista da luz
         _simpleDepthShader.Use();
